@@ -5,6 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import express from 'express';
 import path from 'path';
+var favicon = require('serve-favicon')
 
 var app = express();
 
