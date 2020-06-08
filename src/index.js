@@ -9,11 +9,13 @@ import  favicon from 'serve-favicon'
 
 var app = express();
 
+const router = express.Router()
+
 
 
 app.use(favicon(path.join(__dirname,'favicon.ico')));
 
-app.get('/', (req, res) => {
+router.get('/', (req, res) => {
   res.sendFile(__dirname + '/public' + '/index.html');
 })
 
