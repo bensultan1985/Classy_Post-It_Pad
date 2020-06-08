@@ -5,13 +5,17 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import express from 'express';
 import path from 'path';
-var favicon = require('serve-favicon')
+import  favicon from 'serve-favicon'
 
 var app = express();
 
 
 
-app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(favicon(path.join(__dirname,'favicon.ico')));
+
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/public' + '/index.html');
+})
 
 app.use(express.static(path.join(__dirname, 'public')));
 
