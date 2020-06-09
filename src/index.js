@@ -13,10 +13,14 @@ const router = express.Router()
 
 
 
-app.use(favicon(path.join(__dirname,'favicon.ico')));
+// app.use(favicon(path.join(__dirname,'favicon.ico')));
 
-router.get('/', (req, res) => {
-  res.sendFile(__dirname + '/public' + '/index.html');
+app.get('*', function(_, res) {
+  res.sendFile(path.join(__dirname, './public/index.html'), function(err) {
+    if (err) {
+      res.status(500).send(err)
+    }
+  })
 })
 
 app.use(express.static(path.join(__dirname, 'public')));
