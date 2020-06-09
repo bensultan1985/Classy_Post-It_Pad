@@ -11,12 +11,12 @@ var app = express();
 
 const router = express.Router()
 
-
+console.log('fucking shit')
 
 // app.use(favicon(path.join(__dirname,'favicon.ico')));
 
-app.get('*', function(_, res) {
-  res.sendFile(path.join(__dirname, './public/index.html'), function(err) {
+app.get('/', function(req, res) {
+  res.sendFile(path.join(__dirname, '/public/index.html'), function(err) {
     if (err) {
       res.status(500).send(err)
     }
