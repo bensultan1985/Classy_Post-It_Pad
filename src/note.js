@@ -10,7 +10,7 @@ class Note extends React.Component {
     render() {
       return (
       <div className="note">
-        <textarea></textarea>
+        <textarea placeholder="type your note..."></textarea>
         <DelButton note={this.props.note} delNote={this.props.delNote}/>
       </div>
     );
