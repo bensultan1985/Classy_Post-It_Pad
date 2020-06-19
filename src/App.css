@@ -2,6 +2,38 @@
   text-align: center;
 }
 
+#helpheader {
+  background: rgba(224, 144, 78, 0.705);
+  /* background: rgba(252, 142, 52, 0.76); */
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: rgba(109, 61, 21);
+  /* max-width: 1000px; */
+  /* margin: auto; */
+  display: none;
+  font-size: 16px;
+  padding: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-emphasis: padding;
+}
+
+#closehelpheader {
+  margin: auto;
+  margin-top: 15px;
+  display: block;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  background: rgba(194, 143, 102, 0.705);
+  /* background: rgba(252, 142, 52, 0.76); */
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: rgba(109, 61, 21);
+  font-size: 16px;
+  cursor: pointer;
+}
+
 .note {
   color: black;
   height: auto;
