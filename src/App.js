@@ -102,7 +102,7 @@ class App extends React.Component {
       return (
       <div className="App">
         <div id="helpheader">
-          Bonjour, Ciao, Namaste, Ni Hau. This classy notepad is for the most elegant, articulate mavens upon polymaths. You have worldly problems to solve and grocery lists to write. Waste not your brain power on wondering if you've saved your notes. Every letter you enter is auto-saved, without fail. Write a note. Close your browser. Open it back up next week - hell - next year! Voila! Your cherished note will be here to greet you like an old friend.
+          Bonjour, Ciao, Namaste, Ni Hao. This classy notepad is for the stylish go-getters and the entrepreneurial polymaths of the world. Waste not your brain power on wondering if you've saved your notes. Every letter you enter is auto-saved, without fail. Write a note. Close your browser. Open it back up next week - heck - next year! Voila! Your cherished note will be here to greet you like an old friend.
           <button id="closehelpheader" onClick={this.noHelp}> got it </button>
         </div>
         <div id="header">Classy Post-It Pad</div>
