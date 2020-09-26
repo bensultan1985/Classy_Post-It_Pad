@@ -1,4 +1,4 @@
-### Classy Post-It Pad
+# Classy Post-It Pad
 
 ## A simple note-writing tool that saves notes in the browser.
 
