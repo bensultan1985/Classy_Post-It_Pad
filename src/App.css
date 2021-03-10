@@ -45,6 +45,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
   max-width: 500px;
+  background: rgba(255, 255, 255, 0.906);
 }
 
 textarea {
@@ -76,6 +77,20 @@ textarea {
 
 .delbutton {
   cursor: pointer;
+  border: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  border-radius: 4px;
+  width: fit-content;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+  margin-top: 6px;
+}
+
+.delbutton:hover {
+  border-color: darkgray;
 }
 
 .App-logo {
